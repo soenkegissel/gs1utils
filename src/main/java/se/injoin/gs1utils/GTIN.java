@@ -204,11 +204,11 @@ public final class GTIN {
     }
 
     /**
-     * Converts a GTIN-8 to its GTIN-12 form.
+     * Converts a UPC-E to its GTIN-12 form.
      *
      * @throws IllegalArgumentException if the input string is not a GTIN or a GTIN-14 or GTIN-13 without leading zeros
      */
-    public static String fromGTIN8ToGTIN12(String gtin) {
+    public static String fromUPC_EToGTIN12(String gtin) {
         if (gtin == null) {
             return null;
         }
